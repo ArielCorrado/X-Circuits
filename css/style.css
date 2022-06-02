@@ -280,6 +280,10 @@ footer a {
     transition-duration: 0.25s;
 }
 
+.pages-main__div:hover {
+    transform: scale(105%);
+}
+
 .pages-main__div img {
     max-height: 50%;
     width: 100%;
