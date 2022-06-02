@@ -283,7 +283,7 @@ footer a {
     background-color: rgba(32, 32, 32, 0.637);
     outline: 2px solid rgb(77, 77, 77);        
     transition-duration: 0.25s;
-        height: 50vh;
+    height: 50vh;
 }
 
 .pages-main__div:hover {
@@ -291,7 +291,7 @@ footer a {
 }
 
 .pages-main__div img {
-    max-height: 50%;
+    height: 50%;
     width: 100%;
     object-fit: cover;
 }
@@ -399,6 +399,9 @@ input:focus, textarea:focus {
         font-size: 3.5vh;
     }
 
-}   
+    .pages-main__div { 
+        height: fit-content;
+    }
 
+}
 
