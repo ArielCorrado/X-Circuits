@@ -267,6 +267,11 @@ footer a {
     border-radius: 15px ;
     height: 40vmin;
     width: 75vmin;
+    transition-duration:  0.25s;
+}
+    
+.pages-main__flex__videos:hover {
+    transform: scale(105%);
 }
 
 .pages-main__div { 
