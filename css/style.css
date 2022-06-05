@@ -36,44 +36,9 @@ nav {
     grid-row: 2;
     background-color: rgba(86, 86, 86,0.75);
         
-    padding: 0 !important;
     height: 4.5vh;
-
-    z-index: 100;
-
 }
 
-nav a {
-    font-size: 3.5vh !important;
-    /*padding: 0 !important;
-    margin: 0 3.5vh;*/
-    color: rgb(221, 220, 220) !important;
-}
-
-button {
-    height: 3.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(58, 58, 58, 0.75) !important;
-}
-
-span {
-    height: 3.5vh !important;
-}
-
-.nav-link {
-    padding: 0 !important;
-    margin: 0 3.5vh;
-}
-
-.dropdown-item {
-    padding: 0 3.5vh !important;
-}
-
-.dropdown-menu {
-    width: max-content;
-}
 
 
 
@@ -444,27 +409,5 @@ input:focus, textarea:focus {
 }
 
 
-@media only screen and (max-width: 992px) {
-
-    .bg-nav {
-        background-color: rgba(58, 58, 58, 0.95);
-        border-radius: 0.5vh;
-        margin: 10px;
-        width: 75vw;
-
-        top: 3.5vh;
-
-    }
-
-    .dropdown-menu {
-        width: 100% !important;
-                        
-    }
-   
-    ul li {
-        text-align: center;
-    }
-
-}
 
 
