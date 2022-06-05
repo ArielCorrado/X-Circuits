@@ -27,6 +27,11 @@ header a {
     height: 90%;
 }
 
+
+
+
+
+
 nav {
     grid-row: 2;
     background-color: rgba(86, 86, 86,0.75);
@@ -57,15 +62,6 @@ span {
     height: 3.5vh !important;
 }
 
-nav li {
-    min-height: 4.5vh;
-}
-
-
-
-
-
-
 .nav-link {
     padding: 0 !important;
     margin: 0 3.5vh;
@@ -74,6 +70,11 @@ nav li {
 .dropdown-item {
     padding: 0 3.5vh !important;
 }
+
+.dropdown-menu {
+    width: max-content;
+}
+
 
 
 
@@ -450,9 +451,20 @@ input:focus, textarea:focus {
         border-radius: 0.5vh;
         margin: 10px;
         width: 75vw;
+
+        top: 3.5vh;
+
     }
 
-    .bg-snav {
-        width: 100%;
+    .dropdown-menu {
+        width: 100% !important;
+                        
     }
+   
+    ul li {
+        text-align: center;
+    }
+
 }
+
+
