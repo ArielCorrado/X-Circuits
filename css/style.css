@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -29,18 +29,55 @@ header a {
 
 nav {
     grid-row: 2;
-    background-color: rgba(87, 86, 86,0.75);
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+    background-color: rgba(86, 86, 86,0.75);
+        
+    padding: 0 !important;
+    height: 4.5vh;
+
+    z-index: 100;
+
 }
 
-.nav__ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+nav a {
+    font-size: 3.5vh !important;
+    /*padding: 0 !important;
+    margin: 0 3.5vh;*/
+    color: rgb(221, 220, 220) !important;
 }
+
+button {
+    height: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(58, 58, 58, 0.75) !important;
+}
+
+span {
+    height: 3.5vh !important;
+}
+
+nav li {
+    min-height: 4.5vh;
+}
+
+
+
+
+
+
+.nav-link {
+    padding: 0 !important;
+    margin: 0 3.5vh;
+}
+
+.dropdown-item {
+    padding: 0 3.5vh !important;
+}
+
+
+
+
 
 .nav__menu {
     display: inline-block;
@@ -405,3 +442,17 @@ input:focus, textarea:focus {
 
 }
 
+
+@media only screen and (max-width: 992px) {
+
+    .bg-nav {
+        background-color: rgba(58, 58, 58, 0.95);
+        border-radius: 0.5vh;
+        margin: 10px;
+        width: 75vw;
+    }
+
+    .bg-snav {
+        width: 100%;
+    }
+}
