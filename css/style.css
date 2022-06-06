@@ -27,10 +27,7 @@ header a {
     height: 90%;
 }
 
-
-
-
-
+/*************************************************Personalización navbar bootstrap**************************************************************/
 
 nav {
     grid-row: 2;
@@ -51,15 +48,15 @@ nav a {
 }
 
 button {
-    height: 3.5vh;
+    height: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(58, 58, 58, 0.75) !important;
 }
 
-span {
-    height: 3.5vh !important;
+.navbar-toggler-icon {
+    height: 4vh !important;
 }
 
 .nav-link {
@@ -68,67 +65,28 @@ span {
 }
 
 .dropdown-item {
-    padding: 0 3.5vh !important;
+        padding: 1vh 3.5vh !important;  
 }
 
-.dropdown-menu {
+.dropdown-menu{
     width: max-content;
+        padding: 0 !important;
 }
 
-
-
-
-
-
-.nav__menu {
-    display: inline-block;
-    transition-duration: 0.5s;
-}   
-
-.nav__menu a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    font-size: 3.5vh;                                
-    padding: 0 2.5vmin;
+.dropdownLink {
+    margin-right: 0;
 }
 
-.nav__menu:hover .nav__submenu{
-    display:flex;
+.dropdownButt {
+    margin-left: 0;
 }
 
-.nav__menu:hover {
-    background-color: rgba(61, 61, 61, 0.75)
+.dropdown-divider {
+    border: 1px solid rgb(117, 117, 117);
+        margin: 0 !important;
 }
 
-.nav__submenu {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 3.5vmin;
-    background-color: rgba(49, 49, 49, 0.938);
-    color: white;
-    list-style: none;
-    display: none;
-    z-index: 100;
-    text-align: left;
-}
-
-.nav__submenu a {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.nav__submenu li {
-    padding: 0.3em 0 0.3em 0;
-}
-
-.nav__submenu a:hover {
-    background-color: rgba(110, 159, 214, 0.75); 
-}
+/**********************************************************************************************************************************************/
 
 footer {
     grid-row: 4;
@@ -447,9 +405,9 @@ input:focus, textarea:focus {
 @media only screen and (max-width: 992px) {
 
     .bg-nav {
-        background-color: rgba(58, 58, 58, 0.95);
+        background-color: rgba(41, 41, 41, 0.95);
         border-radius: 0.5vh;
-        margin: 10px;
+        margin: 1.5vh;
         width: 75vw;
 
         top: 3.5vh;
@@ -466,5 +424,18 @@ input:focus, textarea:focus {
     }
 
 }
+
+
+@media only screen and (orientation: landscape) and (max-width: 992px) {
+
+    .bg-nav { 
+        width: 50vw;
+    }
+
+    button {
+        width: 25vw;
+    }
+
+}    
 
 
