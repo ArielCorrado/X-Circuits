@@ -439,3 +439,9 @@ input:focus, textarea:focus {
 }    
 
 
+@media only screen and (min-width: 992px) {
+
+    .dropdownLinkButt {
+        display: flex;
+    }
+}
