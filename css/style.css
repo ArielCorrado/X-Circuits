@@ -27,23 +27,20 @@ header a {
     height: 90%;
 }
 
-/*************************************************Personalización navbar bootstrap**************************************************************/
+
+/*************************************************Personalización de navbar bootstrap**************************************************************/
+
 
 nav {
     grid-row: 2;
     background-color: rgba(86, 86, 86,0.75);
-        
     padding: 0 !important;
     height: 4.5vh;
-
     z-index: 100;
-
 }
 
 nav a {
     font-size: 3.5vh !important;
-    /*padding: 0 !important;
-    margin: 0 3.5vh;*/
     color: rgb(221, 220, 220) !important;
 }
 
@@ -65,12 +62,12 @@ button {
 }
 
 .dropdown-item {
-        padding: 1vh 3.5vh !important;  
+    padding: 1vh 2vh !important;  
 }
 
 .dropdown-menu{
     width: max-content;
-        padding: 0 !important;
+    padding: 0 !important;
 }
 
 .dropdownLink {
@@ -83,10 +80,26 @@ button {
 
 .dropdown-divider {
     border: 1px solid rgb(117, 117, 117);
-        margin: 0 !important;
+    margin: 0 !important;
 }
 
+.nav-link {
+    min-height: 4.5vh;
+    line-height: 4.5vh;
+}
+    
+.nav-item {
+    min-height: 4.5vh;
+    line-height: 4.5vh;
+}
+ 
+.nav-item:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+
 /**********************************************************************************************************************************************/
+
 
 footer {
     grid-row: 4;
@@ -421,6 +434,10 @@ input:focus, textarea:focus {
    
     ul li {
         text-align: center;
+    }
+
+    .nav-item:hover {
+        background-color: rgb(26, 26, 26);
     }
 
 }
