@@ -35,7 +35,7 @@ nav {
     grid-row: 2;
     background-color: rgba(86, 86, 86,0.75);
     padding: 0 !important;
-    height: 4.5vh;
+    min-height: 4.5vh;
     z-index: 100;
 }
 
@@ -44,32 +44,31 @@ nav a {
     color: rgb(221, 220, 220) !important;
 }
 
-button {
+.navbar-toggler {
     height: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(58, 58, 58, 0.75) !important;
-}
-
-.navbar-toggler-icon {
-    height: 4vh !important;
+    background-color: rgba(34, 34, 34, 0.75) !important;
+    width: 10vh;
 }
 
 .nav-link {
     padding: 0 !important;
-    margin: 0 3.5vh;
+    margin: 0 5vh;
+    min-height: 4.5vh;
+    line-height: 4.5vh;
 }
 
-.dropdown-item {
-    padding: 1vh 2vh !important;  
-}
-
-.dropdown-menu{
-    width: max-content;
+.dropdown-menu {
     padding: 0 !important;
 }
 
+.dropdown-item {
+    padding: 1vh !important;  
+    font-size: 3vh !important;
+}
+     
 .dropdownLink {
     margin-right: 0;
 }
@@ -82,12 +81,7 @@ button {
     border: 1px solid rgb(117, 117, 117);
     margin: 0 !important;
 }
-
-.nav-link {
-    min-height: 4.5vh;
-    line-height: 4.5vh;
-}
-    
+  
 .nav-item {
     min-height: 4.5vh;
     line-height: 4.5vh;
@@ -349,7 +343,7 @@ textarea {
     height: 9vh;
     resize: none;
     border-radius: 5px;
-    font-size: 2.5vh;
+    font-size: 2.5vh !important;
 }
 
 form {
@@ -363,7 +357,7 @@ form {
     transform: scale(90%);
 }
 
-button {
+.contacto__button {
     width: 40%;
     font-size: 3.5vh;
     border-radius: 5px;
@@ -383,11 +377,6 @@ input:focus, textarea:focus {
 
 @media only screen and (orientation: portrait) {
 
-    .nav__menu a {
-        font-size: 3vh;
-        padding: 0 2vmin;
-    }
-
     .index-main__divs2 {
         width: 20vh;    
         height: 20vh; 
@@ -398,10 +387,6 @@ input:focus, textarea:focus {
     footer a {
         height: 75%;
         margin: 0 4vmin;
-    }
-
-    .menu_quienes_somos {
-        display: none;
     }
 
     .pages-titulo {
@@ -415,21 +400,19 @@ input:focus, textarea:focus {
 }
 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
 
     .bg-nav {
+        position: absolute;
         background-color: rgba(41, 41, 41, 0.95);
         border-radius: 0.5vh;
         margin: 1.5vh;
         width: 75vw;
-
         top: 3.5vh;
-
     }
 
     .dropdown-menu {
         width: 100% !important;
-                        
     }
    
     ul li {
@@ -443,16 +426,12 @@ input:focus, textarea:focus {
 }
 
 
-@media only screen and (orientation: landscape) and (max-width: 992px) {
+@media only screen and (orientation: landscape) and (max-width: 991px) {
 
     .bg-nav { 
         width: 50vw;
     }
-
-    button {
-        width: 25vw;
-    }
-
+ 
 }    
 
 
@@ -461,4 +440,6 @@ input:focus, textarea:focus {
     .dropdownLinkButt {
         display: flex;
     }
+
 }
+
