@@ -1,0 +1,80 @@
+
+/*header 20vh de altura*/
+/*nav 4.5vh de altura*/
+/*main 68.5vh de altura*/
+/*footer 7vh de altura*/
+/*TOTAL 100vh*/
+
+.index-body {
+    background-image: url("../images/PCB3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(0px) grayscale(0) brightness(45%) contrast(85%);
+    height:fit-content;
+    display: grid;
+    grid-template-rows: 20vh minmax(4.5vh, auto) minmax(68.5vh, auto) 7vh;      
+}     
+
+.index-main {
+    grid-row: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+    &__divs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &__divs2 {
+        position: relative;
+        border: 1vh solid rgba(0, 0, 0, 0.5);
+        width: 35vh;
+        height: 35vh;
+        margin: 2.5vh;
+        border-radius: 1.5vh;
+        background-color: rgba(37, 27, 35, 0.75);
+        display: flex;
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 6vh;
+        transition-duration: 0.25s;
+    }
+
+    &__divs2 img {
+        opacity: 0.75;
+        height: 30%;
+    }
+}  
+
+.circuitos {
+    background-color: rgba(80, 96, 189, 0.85);
+}
+
+.tutoriales {
+    background-color: rgba(209, 123, 42, 0.85);
+}
+
+.arduino {
+    background-color: rgba(35, 104, 87, 0.85);
+}
+
+.contacto {
+    background-color: rgba(116, 76, 102, 0.85);
+}
+
+.index-main__divs2:hover {
+    transform: scale(110%);
+}
+
+.index-main__divs2:hover img {
+    opacity: 1;
+}

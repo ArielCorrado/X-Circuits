@@ -1,0 +1,112 @@
+/******************************************************CSS PAGES (NO INDEX)********************************************************************/
+
+/*header 20vh de altura*/
+/*nav 4.5vh de altura*/
+/*main 68.5vh de altura*/
+/*footer 7vh de altura*/
+/*TOTAL 100vh*/
+.pages-body {
+    background-image: url("../images/PCB3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(0px) grayscale(0) brightness(35%) contrast(85%);
+    height:fit-content;
+    display: grid;
+    grid-template-rows: 20vh minmax(4.5vh, auto) minmax(68.5vh, auto) 7vh;      
+}
+
+.pages-main {
+    grid-row: 3;
+    height: fit-content;
+    padding-top: 7vmin;
+    padding-bottom: 7vmin;
+
+    &__flexTitulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    
+    &__flex__videos {
+        margin: 2vmin;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 15px ;
+        height: 40vmin;
+        width: 75vmin;
+        transition-duration:  0.25s;
+    }
+
+    &__titulo {
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 5vh;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0 1vh;  
+        max-width: 150vh;
+    }
+
+    &__div { 
+        position: relative;
+        max-width: 45vh;
+        text-align: center;
+        border-radius: 1vh;
+        margin: 2vh;
+        background-color: rgba(32, 32, 32, 0.637);
+        outline: 2px solid rgb(77, 77, 77);        
+        transition-duration: 0.25s;
+        height: 50vh;
+    }
+    
+    &__flex__titulos {
+        font-size: 3.5vh;
+        width: 100%;
+        padding: 0.2rem;
+        background-color: rgba(34, 56, 85, 1);
+        color: rgb(255, 254, 254);
+        outline: 2px solid rgb(77, 77, 77);
+        border-radius: 1vh 1vh 0 0;
+    }
+
+    &__flex__descripciones {  
+        font-size: 2.25vh;
+        padding: 0.5em;
+        color: rgb(212, 212, 212);
+    }
+
+    &__flex__descripciones p {
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    &__div img {
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__flex__videos:hover {
+        transform: scale(105%);
+    }
+
+    &__div:hover {
+        transform: scale(105%);
+    }
+}
+
+.quienesSomos-main {
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7vmin 2vmin;
+}
+
+
+
+    

@@ -228,7 +228,7 @@ footer a {
     align-items: center;
 }
 
-.pages-titulo {
+.pages-main__titulo {
     color: rgba(255, 255, 255, 0.85);
     font-size: 5vh;
     font-weight: lighter;
@@ -327,6 +327,17 @@ footer a {
 /************************************************** Contacto.html (Formulario)********************************************************************/
 
 
+form {
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 3vh;
+    border-radius: 10px;
+    color: rgb(214, 214, 214);
+    height:fit-content; 
+    max-width: 100%;
+    border: 1px solid rgb(255, 145, 0); 
+    transform: scale(90%);
+}
+
 form label {
     display: block;
     font-size: 3.5vh;
@@ -342,7 +353,7 @@ form input {
     background-color: rgb(230, 230, 230);
 }    
 
-textarea {
+form textarea {
     width: 100%;
     height: 9vh;
     resize: none;
@@ -350,18 +361,7 @@ textarea {
     font-size: 2.5vh !important;
 }
 
-form {
-    background-color: rgba(0, 0, 0, 0.514);
-    padding: 3vh;
-    border-radius: 10px;
-    color: rgb(214, 214, 214);
-    height:fit-content; 
-    max-width: 100%;
-    border: 1px solid rgb(255, 145, 0); 
-    transform: scale(90%);
-}
-
-.contacto__button {
+form button {
     width: 40%;
     font-size: 3.5vh;
     border-radius: 5px;
