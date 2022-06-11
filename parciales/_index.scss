@@ -47,34 +47,34 @@
         flex-direction: column;
         font-size: 6vh;
         transition-duration: 0.25s;
-    }
+        
+        &:hover {
+            transform: scale(110%);
+        }
 
-    &__divs2 img {
-        opacity: 0.75;
-        height: 30%;
+        & img {
+            opacity: 0.75;
+            height: 30%;
+        }
+        
+        &:hover img {
+            opacity: 1;
+        }
+        
+        &--circuitos {
+            background-color: rgba(80, 96, 189, 0.85);
+        }
+        
+        &--tutoriales {
+            background-color: rgba(209, 123, 42, 0.85);
+        }
+        
+        &--arduino {
+            background-color: rgba(35, 104, 87, 0.85);
+        }
+        
+        &--contacto {
+            background-color: rgba(116, 76, 102, 0.85);
+        }
     }
 }  
-
-.circuitos {
-    background-color: rgba(80, 96, 189, 0.85);
-}
-
-.tutoriales {
-    background-color: rgba(209, 123, 42, 0.85);
-}
-
-.arduino {
-    background-color: rgba(35, 104, 87, 0.85);
-}
-
-.contacto {
-    background-color: rgba(116, 76, 102, 0.85);
-}
-
-.index-main__divs2:hover {
-    transform: scale(110%);
-}
-
-.index-main__divs2:hover img {
-    opacity: 1;
-}

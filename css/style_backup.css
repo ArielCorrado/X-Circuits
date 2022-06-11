@@ -189,19 +189,19 @@ footer a {
     opacity: 1;
 }
 
-.circuitos {
+.index-main__divs2--circuitos {
     background-color: rgba(80, 96, 189, 0.85);
 }
 
-.tutoriales {
+.index-main__divs2--tutoriales {
     background-color: rgba(209, 123, 42, 0.85);
 }
 
-.arduino {
+.index-main__divs2--arduino {
     background-color: rgba(35, 104, 87, 0.85);
 }
 
-.contacto {
+.index-main__divs2--contacto {
     background-color: rgba(116, 76, 102, 0.85);
 }
 

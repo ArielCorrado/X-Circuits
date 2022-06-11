@@ -89,9 +89,8 @@ footer {
     footer a .footer__logos {
       height: 90%;
       opacity: 0.75; }
-
-.footer__logos:hover {
-  opacity: 1; }
+      footer a .footer__logos:hover {
+        opacity: 1; }
 
 /*header 20vh de altura*/
 /*nav 4.5vh de altura*/
@@ -136,27 +135,21 @@ footer {
     flex-direction: column;
     font-size: 6vh;
     transition-duration: 0.25s; }
-  .index-main__divs2 img {
-    opacity: 0.75;
-    height: 30%; }
-
-.circuitos {
-  background-color: rgba(80, 96, 189, 0.85); }
-
-.tutoriales {
-  background-color: rgba(209, 123, 42, 0.85); }
-
-.arduino {
-  background-color: rgba(35, 104, 87, 0.85); }
-
-.contacto {
-  background-color: rgba(116, 76, 102, 0.85); }
-
-.index-main__divs2:hover {
-  transform: scale(110%); }
-
-.index-main__divs2:hover img {
-  opacity: 1; }
+    .index-main__divs2:hover {
+      transform: scale(110%); }
+    .index-main__divs2 img {
+      opacity: 0.75;
+      height: 30%; }
+    .index-main__divs2:hover img {
+      opacity: 1; }
+    .index-main__divs2--circuitos {
+      background-color: rgba(80, 96, 189, 0.85); }
+    .index-main__divs2--tutoriales {
+      background-color: rgba(209, 123, 42, 0.85); }
+    .index-main__divs2--arduino {
+      background-color: rgba(35, 104, 87, 0.85); }
+    .index-main__divs2--contacto {
+      background-color: rgba(116, 76, 102, 0.85); }
 
 /******************************************************CSS PAGES (NO INDEX)********************************************************************/
 /*header 20vh de altura*/
@@ -269,12 +262,16 @@ form {
     border-radius: 5px;
     border-style: none;
     background-color: #e6e6e6; }
+    form input:focus {
+      outline: 1px solid #ff8800; }
   form textarea {
     width: 100%;
     height: 9vh;
     resize: none;
     border-radius: 5px;
     font-size: 2.5vh !important; }
+    form textarea:focus {
+      outline: 1px solid #ff8800; }
   form button {
     width: 40%;
     font-size: 3.5vh;
@@ -283,9 +280,6 @@ form {
     color: aliceblue;
     border-style: none;
     border: 1px solid #ff9100; }
-
-input:focus, textarea:focus {
-  outline: 1px solid #ff8800; }
 
 @media only screen and (orientation: portrait) {
   .index-main__divs2 {

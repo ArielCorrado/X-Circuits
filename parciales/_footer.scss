@@ -16,10 +16,11 @@ footer {
         .footer__logos {
             height: 90%;
             opacity: 0.75;
+
+            &:hover {
+                opacity: 1;
+            }
         }
     }
 }
 
-.footer__logos:hover {
-    opacity: 1;
-}
