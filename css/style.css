@@ -183,7 +183,7 @@ footer {
     justify-content: center; }
   .pages-main__flex__videos {
     margin: 2vmin;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    outline: 2px solid #5a5a5a;
     border-radius: 15px;
     height: 40vmin;
     width: 75vmin;
@@ -202,7 +202,7 @@ footer {
     border-radius: 1vh;
     margin: 2vh;
     background-color: rgba(32, 32, 32, 0.637);
-    outline: 2px solid #4d4d4d;
+    outline: 2px solid #5a5a5a;
     transition-duration: 0.25s;
     height: 50vh; }
   .pages-main__flex__titulos {
@@ -211,7 +211,7 @@ footer {
     padding: 0.2rem;
     background-color: #223855;
     color: #fffefe;
-    outline: 2px solid #4d4d4d;
+    outline: 2px solid #5a5a5a;
     border-radius: 1vh 1vh 0 0; }
   .pages-main__flex__descripciones {
     font-size: 2.25vh;
@@ -264,7 +264,7 @@ form {
     border-style: none;
     background-color: #e6e6e6; }
     form input:focus {
-      outline: 1px solid #ff8800; }
+      outline: 1px solid #ff9100; }
   form textarea {
     width: 100%;
     height: 9vh;
@@ -272,7 +272,7 @@ form {
     border-radius: 5px;
     font-size: 2.5vh !important; }
     form textarea:focus {
-      outline: 1px solid #ff8800; }
+      outline: 1px solid #ff9100; }
   form button {
     width: 40%;
     font-size: 3.5vh;

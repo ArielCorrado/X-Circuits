@@ -14,7 +14,7 @@ form {
     color: rgb(214, 214, 214);
     height:fit-content; 
     max-width: 100%;
-    border: 1px solid rgb(255, 145, 0); 
+    border: $outline_form; 
     transform: scale(90%);
 
     label {
@@ -32,7 +32,7 @@ form {
         background-color: rgb(230, 230, 230);
         
         &:focus {
-            outline: 1px solid rgb(255, 136, 0);
+            outline: $outline_form;
         }
     }    
     
@@ -44,7 +44,7 @@ form {
         font-size: 2.5vh !important;
 
         &:focus {
-            outline: 1px solid rgb(255, 136, 0);
+            outline: $outline_form;
         }
     }
     
@@ -55,7 +55,7 @@ form {
         background-color: rgb(31, 31, 31);
         color: aliceblue;
         border-style: none;
-        border: 1px solid rgb(255, 145, 0);
+        border: $outline_form;
     }
 }
 

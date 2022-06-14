@@ -36,7 +36,7 @@
     
     &__flex__videos {
         margin: 2vmin;
-        border: 2px solid rgba(255, 255, 255, 0.5);
+        outline: $outline_pages;
         border-radius: 15px ;
         height: 40vmin;
         width: 75vmin;
@@ -59,7 +59,7 @@
         border-radius: 1vh;
         margin: 2vh;
         background-color: rgba(32, 32, 32, 0.637);
-        outline: 2px solid rgb(77, 77, 77);        
+        outline: $outline_pages;        
         transition-duration: 0.25s;
         height: 50vh;
     }
@@ -70,7 +70,7 @@
         padding: 0.2rem;
         background-color: rgba(34, 56, 85, 1);
         color: rgb(255, 254, 254);
-        outline: 2px solid rgb(77, 77, 77);
+        outline: $outline_pages;
         border-radius: 1vh 1vh 0 0;
     }
 
