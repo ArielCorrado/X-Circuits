@@ -20,27 +20,51 @@
     height: fit-content;
     padding-top: 7vmin;
     padding-bottom: 7vmin;
-
-    &__flexTitulo {
-        @include flexcenter;
-    }
-
+    
     &__flex {
         display: flex;
         justify-content:center;
         flex-direction: row;
         flex-wrap: wrap;
-    }
+
+        &__videos {
+            margin: 2vmin;
+            outline: $outline_pages;
+            border-radius: 15px ;
+            height: 40vmin;
+            width: 75vmin;
+            transition-duration:  0.25s;
+
+            &:hover {
+                transform: scale(105%);
+            }
+        }
+
+        &__titulos {
+            font-size: 3.5vh;
+            width: 100%;
+            padding: 0.2rem;
+            background-color: rgba(34, 56, 85, 1);
+            color: rgb(255, 254, 254);
+            outline: $outline_pages;
+            border-radius: 1vh 1vh 0 0;
+        }
     
-    &__flex__videos {
-        margin: 2vmin;
-        outline: $outline_pages;
-        border-radius: 15px ;
-        height: 40vmin;
-        width: 75vmin;
-        transition-duration:  0.25s;
+        &__descripciones {  
+            font-size: 2.25vh;
+            padding: 0.5em;
+            color: rgb(212, 212, 212);
+        
+            & p {
+                font-family:Arial, Helvetica, sans-serif;
+            }
+        }
     }
 
+    &__flexTitulo {
+        @include flexcenter;
+    }
+    
     &__titulo {
         color: rgba(255, 255, 255, 0.85);
         font-size: 5vh;
@@ -64,36 +88,12 @@
         &:hover {
             transform: scale(105%);
         }
-    }
-    
-    &__flex__titulos {
-        font-size: 3.5vh;
-        width: 100%;
-        padding: 0.2rem;
-        background-color: rgba(34, 56, 85, 1);
-        color: rgb(255, 254, 254);
-        outline: $outline_pages;
-        border-radius: 1vh 1vh 0 0;
-    }
 
-    &__flex__descripciones {  
-        font-size: 2.25vh;
-        padding: 0.5em;
-        color: rgb(212, 212, 212);
-    }
-
-    &__flex__descripciones p {
-        font-family:Arial, Helvetica, sans-serif;
-    }
-
-    &__div img {
-        height: 50%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    &__flex__videos:hover {
-        transform: scale(105%);
+        & img {
+            height: 50%;
+            width: 100%;
+            object-fit: cover;
+        }
     }
 }
 

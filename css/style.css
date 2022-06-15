@@ -175,22 +175,38 @@ footer {
   height: fit-content;
   padding-top: 7vmin;
   padding-bottom: 7vmin; }
-  .pages-main__flexTitulo {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
   .pages-main__flex {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap; }
-  .pages-main__flex__videos {
-    margin: 2vmin;
-    outline: 2px solid #5a5a5a;
-    border-radius: 15px;
-    height: 40vmin;
-    width: 75vmin;
-    transition-duration: 0.25s; }
+    .pages-main__flex__videos {
+      margin: 2vmin;
+      outline: 2px solid #5a5a5a;
+      border-radius: 15px;
+      height: 40vmin;
+      width: 75vmin;
+      transition-duration: 0.25s; }
+      .pages-main__flex__videos:hover {
+        transform: scale(105%); }
+    .pages-main__flex__titulos {
+      font-size: 3.5vh;
+      width: 100%;
+      padding: 0.2rem;
+      background-color: #223855;
+      color: #fffefe;
+      outline: 2px solid #5a5a5a;
+      border-radius: 1vh 1vh 0 0; }
+    .pages-main__flex__descripciones {
+      font-size: 2.25vh;
+      padding: 0.5em;
+      color: #d4d4d4; }
+      .pages-main__flex__descripciones p {
+        font-family: Arial, Helvetica, sans-serif; }
+  .pages-main__flexTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .pages-main__titulo {
     color: rgba(255, 255, 255, 0.85);
     font-size: 5vh;
@@ -210,26 +226,10 @@ footer {
     height: 50vh; }
     .pages-main__div:hover {
       transform: scale(105%); }
-  .pages-main__flex__titulos {
-    font-size: 3.5vh;
-    width: 100%;
-    padding: 0.2rem;
-    background-color: #223855;
-    color: #fffefe;
-    outline: 2px solid #5a5a5a;
-    border-radius: 1vh 1vh 0 0; }
-  .pages-main__flex__descripciones {
-    font-size: 2.25vh;
-    padding: 0.5em;
-    color: #d4d4d4; }
-  .pages-main__flex__descripciones p {
-    font-family: Arial, Helvetica, sans-serif; }
-  .pages-main__div img {
-    height: 50%;
-    width: 100%;
-    object-fit: cover; }
-  .pages-main__flex__videos:hover {
-    transform: scale(105%); }
+    .pages-main__div img {
+      height: 50%;
+      width: 100%;
+      object-fit: cover; }
 
 .quienesSomos-main {
   grid-row: 3;
