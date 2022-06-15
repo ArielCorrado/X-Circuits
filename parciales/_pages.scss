@@ -22,16 +22,14 @@
     padding-bottom: 7vmin;
 
     &__flexTitulo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexcenter;
     }
 
     &__flex {
         display: flex;
+        justify-content:center;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content:center;
     }
     
     &__flex__videos {
@@ -62,6 +60,10 @@
         outline: $outline_pages;        
         transition-duration: 0.25s;
         height: 50vh;
+
+        &:hover {
+            transform: scale(105%);
+        }
     }
     
     &__flex__titulos {
@@ -93,17 +95,11 @@
     &__flex__videos:hover {
         transform: scale(105%);
     }
-
-    &__div:hover {
-        transform: scale(105%);
-    }
 }
 
 .quienesSomos-main {
     grid-row: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexcenter;
     padding: 7vmin 2vmin;
 }
 

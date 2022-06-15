@@ -17,9 +17,7 @@ nav {
 
 .navbar-toggler {
     height: 4vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexcenter;
     background-color: rgba(34, 34, 34, 0.75) !important;
     width: 10vh;
 }

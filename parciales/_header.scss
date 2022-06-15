@@ -1,16 +1,14 @@
+/**************************************************************** Header ***********************************************************************/
+
 header {                                                                    
     grid-row: 1;
     background-color: rgba(53, 53, 53, 0.9);
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexcenter;
     
     a {
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexcenter;
         
         .header__logo {
             max-width: 100%;

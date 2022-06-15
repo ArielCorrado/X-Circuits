@@ -1,3 +1,4 @@
+/********************************************************* Index.html **************************************************************************/
 
 /*header 20vh de altura*/
 /*nav 4.5vh de altura*/
@@ -17,17 +18,13 @@
 
 .index-main {
     grid-row: 3;
-    display: flex;
+    @include flexcenter;
     flex-direction: row;
-    justify-content:center;
-    align-items: center;
     flex-wrap: wrap;
     align-content: center;
     
     &__divs {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexcenter;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -40,11 +37,9 @@
         margin: 2.5vh;
         border-radius: 1.5vh;
         background-color: rgba(37, 27, 35, 0.75);
-        display: flex;
-        color: rgb(255, 255, 255);
-        justify-content: center;
-        align-items: center;
+        @include flexcenter;
         flex-direction: column;
+        color: rgb(255, 255, 255);
         font-size: 6vh;
         transition-duration: 0.25s;
         

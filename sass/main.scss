@@ -1,3 +1,9 @@
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @import "../parciales/variables";
 @import "../parciales/reset";
 @import "../parciales/header";

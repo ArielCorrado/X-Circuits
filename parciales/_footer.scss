@@ -1,16 +1,13 @@
+/**************************************************************** Footer ************************************************************************/
 
 footer {
     grid-row: 4;
     background-color: rgba(27, 27, 27, 0.75);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexcenter;
 
     a {
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexcenter;
         margin: 0 6vh;
 
         .footer__logos {

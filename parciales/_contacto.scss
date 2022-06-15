@@ -1,9 +1,9 @@
+/************************************************** Contacto.html *****************************************************************************/
+
 .contacto-main {
     grid-row: 3;
-    display: flex;
+    @include flexcenter;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-top: 3.5vmin;
 }
 
