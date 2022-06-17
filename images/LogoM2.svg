@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="545" viewBox="0 0 2400 545">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        font-size: 300px;
+        fill: #4177b5;
+        font-family: Impact;
+      }
+
+      .cls-2 {
+        fill: #bdbdbd;
+      }
+
+      .cls-3 {
+        fill: #f18127;
+        font-size: 250px;
+      }
+    </style>
+  </defs>
+  <text id="X-CIRCUITS" class="cls-1" transform="translate(128.995 484.034) scale(1.848 1.847)">X<tspan class="cls-2">-<tspan class="cls-3">CIRCUITS</tspan></tspan></text>
+</svg>
