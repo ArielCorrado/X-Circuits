@@ -40,7 +40,18 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: rgba(34, 34, 34, 0.75) !important;
-  width: 10vh; }
+  width: 10vh;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0.5vh !important; }
+
+.navbar-toggler:hover {
+  outline: 0.5vh solid rgba(199, 117, 9, 0.781) !important; }
+
+.navbar-toggler-icon {
+  height: 4vh !important;
+  background-size: contain !important; }
 
 .nav-link {
   padding: 0 !important;
@@ -63,7 +74,8 @@ nav {
 
 .dropdown-divider {
   border: 1px solid #757575;
-  margin: 0 !important; }
+  margin: 0 !important;
+  border-top: 0 !important; }
 
 .nav-item {
   min-height: 4.5vh;
@@ -72,9 +84,6 @@ nav {
 
 .nav-item:hover {
   background-color: #353535; }
-
-.navbar-toggler:hover {
-  border: 1px solid rgba(199, 117, 9, 0.781); }
 
 /**************************************************************** Footer ************************************************************************/
 footer {

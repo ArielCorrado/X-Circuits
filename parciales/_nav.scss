@@ -14,12 +14,24 @@ nav {
     }
 }
 
-
 .navbar-toggler {
     height: 4vh;
     @include flexcenter;
     background-color: rgba(34, 34, 34, 0.75) !important;
     width: 10vh;
+    box-shadow: none !important;    
+    padding: 0 !important;    
+    border: 0 !important;
+    border-radius: 0.5vh !important;
+}
+
+.navbar-toggler:hover{
+    outline: 0.5vh solid rgba(199, 117, 9, 0.781) !important;
+}
+
+.navbar-toggler-icon {
+    height: 4vh !important;
+    background-size: contain !important;
 }
 
 .nav-link {
@@ -30,12 +42,12 @@ nav {
 }
 
 .dropdown-menu {
-    padding: 0 !important;
+    padding: 0 !important;  
 }
 
 .dropdown-item {
     padding: 1vh !important;  
-    font-size: 3vh !important;
+    font-size: 3vh !important;  
 }
      
 .dropdownLink {
@@ -49,6 +61,7 @@ nav {
 .dropdown-divider {
     border: 1px solid rgb(117, 117, 117);
     margin: 0 !important;
+    border-top: 0 !important;
 }
   
 .nav-item {
@@ -61,6 +74,8 @@ nav {
     background-color: rgb(53, 53, 53);
 }
 
-.navbar-toggler:hover{
-    border: 1px solid rgba(199, 117, 9, 0.781);
-}
+
+
+    
+
+
