@@ -44,10 +44,10 @@ nav {
   box-shadow: none !important;
   padding: 0 !important;
   border: 0 !important;
-  border-radius: 0.5vh !important; }
-
-.navbar-toggler:hover {
-  outline: 0.5vh solid rgba(199, 117, 9, 0.781) !important; }
+  border-radius: 0.5vh !important;
+  outline: 1px solid rgba(255, 255, 255, 0.25) !important; }
+  .navbar-toggler:hover {
+    outline: 0.5vh solid #c77509 !important; }
 
 .navbar-toggler-icon {
   height: 4vh !important;
@@ -65,6 +65,8 @@ nav {
 .dropdown-item {
   padding: 1vh !important;
   font-size: 3vh !important; }
+  .dropdown-item:active {
+    background-color: inherit !important; }
 
 .dropdownLink {
   margin-right: 0; }

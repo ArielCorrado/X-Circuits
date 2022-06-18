@@ -23,10 +23,11 @@ nav {
     padding: 0 !important;    
     border: 0 !important;
     border-radius: 0.5vh !important;
-}
+    outline: 1px solid rgba(255, 255, 255, 0.25) !important;
 
-.navbar-toggler:hover{
-    outline: 0.5vh solid rgba(199, 117, 9, 0.781) !important;
+    &:hover{
+        outline: 0.5vh solid rgba(199, 117, 9, 1) !important;
+    }
 }
 
 .navbar-toggler-icon {
@@ -48,6 +49,10 @@ nav {
 .dropdown-item {
     padding: 1vh !important;  
     font-size: 3vh !important;  
+
+    &:active {
+        background-color: inherit !important;
+    }
 }
      
 .dropdownLink {
@@ -73,9 +78,5 @@ nav {
 .nav-item:hover {
     background-color: rgb(53, 53, 53);
 }
-
-
-
-    
 
 
