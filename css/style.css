@@ -110,14 +110,14 @@ footer {
 /*main 68.5vh de altura*/
 /*footer 7vh de altura*/
 /*TOTAL 100vh*/
-.index-body {
+.index-body, .pages-body {
   background-image: url("../images/PCB3.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter: blur(0px) grayscale(0) brightness(45%) contrast(85%);
   height: fit-content;
   display: grid;
-  grid-template-rows: 20vh minmax(4.5vh, auto) minmax(68.5vh, auto) 7vh; }
+  grid-template-rows: 20vh minmax(4.5vh, auto) minmax(68.5vh, auto) 7vh;
+  backdrop-filter: blur(0px) grayscale(0) brightness(45%) contrast(85%); }
 
 .index-main {
   grid-row: 3;
@@ -165,19 +165,8 @@ footer {
       background-color: rgba(116, 76, 102, 0.85); }
 
 /******************************************************CSS PAGES (NO INDEX)********************************************************************/
-/*header 20vh de altura*/
-/*nav 4.5vh de altura*/
-/*main 68.5vh de altura*/
-/*footer 7vh de altura*/
-/*TOTAL 100vh*/
 .pages-body {
-  background-image: url("../images/PCB3.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  backdrop-filter: blur(0px) grayscale(0) brightness(35%) contrast(85%);
-  height: fit-content;
-  display: grid;
-  grid-template-rows: 20vh minmax(4.5vh, auto) minmax(68.5vh, auto) 7vh; }
+  backdrop-filter: blur(0px) grayscale(0) brightness(35%) contrast(85%); }
 
 .pages-main {
   grid-row: 3;
@@ -308,7 +297,9 @@ form {
   .pages-titulo {
     font-size: 3.5vh; }
   .pages-main__div {
-    height: fit-content; } }
+    height: fit-content; }
+    .pages-main__div img {
+      height: 30vh; } }
 
 @media only screen and (max-width: 991px) {
   .bg-nav {

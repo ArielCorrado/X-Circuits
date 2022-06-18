@@ -4,6 +4,13 @@
     align-items: center;
 }
 
+$Index_bloques: (
+    azul: rgba(80, 96, 189, 0.85),
+    naranja: rgba(209, 123, 42, 0.85),
+    verde: rgba(35, 104, 87, 0.85),
+    violeta: rgba(116, 76, 102, 0.85)
+);
+
 @import "../parciales/variables";
 @import "../parciales/reset";
 @import "../parciales/header";

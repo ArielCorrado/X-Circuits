@@ -10,10 +10,10 @@
     background-image: url("../images/PCB3.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(0px) grayscale(0) brightness(45%) contrast(85%);
     height:fit-content;
     display: grid;
     grid-template-rows: 20vh minmax(4.5vh, auto) minmax(68.5vh, auto) 7vh;      
+    backdrop-filter: blur(0px) grayscale(0) brightness(45%) contrast(85%);
 }     
 
 .index-main {
@@ -57,19 +57,19 @@
         }
         
         &--circuitos {
-            background-color: rgba(80, 96, 189, 0.85);
+            background-color: map-get($Index_bloques, azul);
         }
         
         &--tutoriales {
-            background-color: rgba(209, 123, 42, 0.85);
+            background-color: map-get($Index_bloques, naranja);
         }
         
         &--arduino {
-            background-color: rgba(35, 104, 87, 0.85);
+            background-color: map-get($Index_bloques, verde);
         }
         
         &--contacto {
-            background-color: rgba(116, 76, 102, 0.85);
+            background-color: map-get($Index_bloques, violeta);
         }
     }
 }  

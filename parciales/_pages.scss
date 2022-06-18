@@ -1,18 +1,8 @@
 /******************************************************CSS PAGES (NO INDEX)********************************************************************/
 
-/*header 20vh de altura*/
-/*nav 4.5vh de altura*/
-/*main 68.5vh de altura*/
-/*footer 7vh de altura*/
-/*TOTAL 100vh*/
 .pages-body {
-    background-image: url("../images/PCB3.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+    @extend .index-body;      
     backdrop-filter: blur(0px) grayscale(0) brightness(35%) contrast(85%);
-    height:fit-content;
-    display: grid;
-    grid-template-rows: 20vh minmax(4.5vh, auto) minmax(68.5vh, auto) 7vh;      
 }
 
 .pages-main {

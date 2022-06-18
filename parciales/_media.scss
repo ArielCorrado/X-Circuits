@@ -20,6 +20,10 @@
 
     .pages-main__div { 
         height: fit-content;
+        
+        & img { 
+            height: 30vh;
+        }
     }
 }
 
