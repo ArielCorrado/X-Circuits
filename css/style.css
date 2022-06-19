@@ -308,15 +308,15 @@ form {
   animation-name: vibracion;
   animation-delay: 0.8s;
   animation-duration: 50ms;
-  animation-iteration-count: 20;
+  animation-iteration-count: 15;
   animation-direction: alternate;
   animation-timing-function: linear; }
 
 @keyframes vibracion {
   0% {
-    transform: translateY(2px); }
+    transform: translateY(1px); }
   100% {
-    transform: translateY(-2px); } }
+    transform: translateY(-1px); } }
 
 /**************************************************************** @media  *********************************************************************/
 @media only screen and (orientation: portrait) {
