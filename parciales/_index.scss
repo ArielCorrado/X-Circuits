@@ -7,12 +7,7 @@
 /*TOTAL 100vh*/
 
 .index-body {
-    background-image: url("../images/PCB3.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:fit-content;
-    display: grid;
-    grid-template-rows: 20vh minmax(4.5vh, auto) minmax(68.5vh, auto) 7vh;      
+    @extend .pages-body;        
     backdrop-filter: blur(0px) grayscale(0) brightness(45%) contrast(85%);
 }     
 

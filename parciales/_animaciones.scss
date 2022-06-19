@@ -1,0 +1,39 @@
+/******************************************************** Animaciones *******************************************************************/
+
+.header__logoIndex {
+    @extend .header__logo;
+    animation-name: caida;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes caida {
+    0% {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.index-body {
+    overflow: hidden; 
+    outline: 10px solid rgb(43, 43, 43);
+    animation-name: vibracion;
+    animation-delay: 0.8s;
+    animation-duration: 50ms;
+    animation-iteration-count: 20;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes vibracion { 
+    0% { 
+        transform: translateY(2px);
+    }
+    100% {
+        transform: translateY(-2px);
+    }
+}

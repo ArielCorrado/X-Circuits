@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center; }
-    header a .header__logo {
+    header a .header__logo, header a .header__logoIndex {
       max-width: 100%;
       max-height: 90%; }
 
@@ -112,13 +112,7 @@ footer {
 /*main 68.5vh de altura*/
 /*footer 7vh de altura*/
 /*TOTAL 100vh*/
-.index-body, .pages-body {
-  background-image: url("../images/PCB3.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: fit-content;
-  display: grid;
-  grid-template-rows: 20vh minmax(4.5vh, auto) minmax(68.5vh, auto) 7vh;
+.index-body {
   backdrop-filter: blur(0px) grayscale(0) brightness(45%) contrast(85%); }
 
 .index-main {
@@ -167,7 +161,13 @@ footer {
       background-color: rgba(116, 76, 102, 0.85); }
 
 /******************************************************CSS PAGES (NO INDEX)********************************************************************/
-.pages-body {
+.pages-body, .index-body {
+  background-image: url("../images/PCB3.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  display: grid;
+  grid-template-rows: 20vh minmax(4.5vh, auto) minmax(68.5vh, auto) 7vh;
   backdrop-filter: blur(0px) grayscale(0) brightness(35%) contrast(85%); }
 
 .pages-main {
@@ -287,6 +287,36 @@ form {
     border: 2px solid #ff9100; }
     form button:hover {
       background-color: #333333; }
+
+/******************************************************** Animaciones *******************************************************************/
+.header__logoIndex {
+  animation-name: caida;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in; }
+
+@keyframes caida {
+  0% {
+    opacity: 0;
+    transform: translateY(-300px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.index-body {
+  overflow: hidden;
+  outline: 10px solid #2b2b2b;
+  animation-name: vibracion;
+  animation-delay: 0.8s;
+  animation-duration: 50ms;
+  animation-iteration-count: 20;
+  animation-direction: alternate;
+  animation-timing-function: linear; }
+
+@keyframes vibracion {
+  0% {
+    transform: translateY(2px); }
+  100% {
+    transform: translateY(-2px); } }
 
 /**************************************************************** @media  *********************************************************************/
 @media only screen and (orientation: portrait) {
