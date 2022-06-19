@@ -314,9 +314,9 @@ form {
 
 @keyframes vibracion {
   0% {
-    transform: translateY(1px); }
+    transform: translateY(2px); }
   100% {
-    transform: translateY(-1px); } }
+    transform: translateY(-2px); } }
 
 /**************************************************************** @media  *********************************************************************/
 @media only screen and (orientation: portrait) {
