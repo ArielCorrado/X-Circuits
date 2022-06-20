@@ -41,7 +41,7 @@
 @keyframes vibracion {
     @for $i from 0 through 100 {
         #{$i*1%} {
-            overflow: hidden;
+            overflow: hidden;         //El overflow:hidden es para que no aparezca la barra de scroll durante la vibración
             transform: translateY((0.5vh * (100 - $i) / 100) * masmenos($i));
         }
     }
