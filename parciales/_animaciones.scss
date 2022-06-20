@@ -10,7 +10,7 @@
 @keyframes caida {
     0% {
         opacity: 0;
-        transform: translateY(-500px);
+        transform: translateY(-20vh);
     }
     100% {
         opacity: 1;
@@ -19,8 +19,6 @@
 }
 
 .index-body {
-    overflow: hidden; 
-    outline: 10px solid rgb(43, 43, 43);
     animation-name: vibracion;
     animation-delay: 0.8s;
     animation-duration: 50ms;
@@ -31,9 +29,13 @@
 
 @keyframes vibracion { 
     0% { 
-        transform: translateY(2px);
+        outline: 1vh solid rgb(43, 43, 43);
+        overflow: hidden;
+        transform: translateY(0.5vh);
     }
-    100% {
-        transform: translateY(-2px);
+    100% {        
+        outline: 1vh solid rgb(43, 43, 43);
+        overflow: hidden;
+        transform: translateY(-0.5vh);
     }
 }

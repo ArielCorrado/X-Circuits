@@ -297,14 +297,12 @@ form {
 @keyframes caida {
   0% {
     opacity: 0;
-    transform: translateY(-500px); }
+    transform: translateY(-20vh); }
   100% {
     opacity: 1;
     transform: translateY(0); } }
 
 .index-body {
-  overflow: hidden;
-  outline: 10px solid #2b2b2b;
   animation-name: vibracion;
   animation-delay: 0.8s;
   animation-duration: 50ms;
@@ -314,9 +312,13 @@ form {
 
 @keyframes vibracion {
   0% {
-    transform: translateY(2px); }
+    outline: 1vh solid #2b2b2b;
+    overflow: hidden;
+    transform: translateY(0.5vh); }
   100% {
-    transform: translateY(-2px); } }
+    outline: 1vh solid #2b2b2b;
+    overflow: hidden;
+    transform: translateY(-0.5vh); } }
 
 /**************************************************************** @media  *********************************************************************/
 @media only screen and (orientation: portrait) {
