@@ -1,4 +1,4 @@
-/******************************************************** Animaciones *******************************************************************/
+/************************************************Animación de "caida" del Logo*************************************************************/
 
 .header__logoIndex {
     @extend .header__logo;
@@ -18,24 +18,31 @@
     }
 }
 
+/***************************************************** Animación de Temblor ************************************************************/
+
 .index-body {
+    outline: 1vh solid rgb(43, 43, 43);
     animation-name: vibracion;
     animation-delay: 0.8s;
-    animation-duration: 50ms;
-    animation-iteration-count: 15;
-    animation-direction: alternate;
-    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
-@keyframes vibracion { 
-    0% { 
-        outline: 1vh solid rgb(43, 43, 43);
-        overflow: hidden;
-        transform: translateY(0.5vh);
+//  Esta función retorna -1 para valores impares de $i y +1 para valores pares de $i
+@function masmenos ($i) {
+    @if $i%2==1 {
+        @return (-1);
     }
-    100% {        
-        outline: 1vh solid rgb(43, 43, 43);
-        overflow: hidden;
-        transform: translateY(-0.5vh);
-    }
+    @return (1);
 }
+
+// Esta animación crea un efecto de Oscilación Amortiguada tomando valores de 0 a 100% con pasos de 1% 
+// Los valores del movimiento empiezan en 0.5vh y van decreciendo hasta cero, osea: 0.5vh -0.495vh 0.49vh -0.485vh etc.
+@keyframes vibracion {
+    @for $i from 0 through 100 {
+        #{$i*1%} {
+            overflow: hidden;
+            transform: translateY((0.5vh * (100 - $i) / 100) * masmenos($i));
+        }
+    }
+} 

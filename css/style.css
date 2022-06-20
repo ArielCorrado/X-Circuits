@@ -288,7 +288,7 @@ form {
     form button:hover {
       background-color: #333333; }
 
-/******************************************************** Animaciones *******************************************************************/
+/************************************************Animación de "caida" del Logo*************************************************************/
 .header__logoIndex {
   animation-name: caida;
   animation-duration: 0.8s;
@@ -302,23 +302,318 @@ form {
     opacity: 1;
     transform: translateY(0); } }
 
+/***************************************************** Animación de Temblor ************************************************************/
 .index-body {
+  outline: 1vh solid #2b2b2b;
   animation-name: vibracion;
   animation-delay: 0.8s;
-  animation-duration: 50ms;
-  animation-iteration-count: 15;
-  animation-direction: alternate;
-  animation-timing-function: linear; }
+  animation-duration: 2s;
+  animation-timing-function: ease-out; }
 
 @keyframes vibracion {
   0% {
-    outline: 1vh solid #2b2b2b;
     overflow: hidden;
     transform: translateY(0.5vh); }
-  100% {
-    outline: 1vh solid #2b2b2b;
+  1% {
     overflow: hidden;
-    transform: translateY(-0.5vh); } }
+    transform: translateY(-0.495vh); }
+  2% {
+    overflow: hidden;
+    transform: translateY(0.49vh); }
+  3% {
+    overflow: hidden;
+    transform: translateY(-0.485vh); }
+  4% {
+    overflow: hidden;
+    transform: translateY(0.48vh); }
+  5% {
+    overflow: hidden;
+    transform: translateY(-0.475vh); }
+  6% {
+    overflow: hidden;
+    transform: translateY(0.47vh); }
+  7% {
+    overflow: hidden;
+    transform: translateY(-0.465vh); }
+  8% {
+    overflow: hidden;
+    transform: translateY(0.46vh); }
+  9% {
+    overflow: hidden;
+    transform: translateY(-0.455vh); }
+  10% {
+    overflow: hidden;
+    transform: translateY(0.45vh); }
+  11% {
+    overflow: hidden;
+    transform: translateY(-0.445vh); }
+  12% {
+    overflow: hidden;
+    transform: translateY(0.44vh); }
+  13% {
+    overflow: hidden;
+    transform: translateY(-0.435vh); }
+  14% {
+    overflow: hidden;
+    transform: translateY(0.43vh); }
+  15% {
+    overflow: hidden;
+    transform: translateY(-0.425vh); }
+  16% {
+    overflow: hidden;
+    transform: translateY(0.42vh); }
+  17% {
+    overflow: hidden;
+    transform: translateY(-0.415vh); }
+  18% {
+    overflow: hidden;
+    transform: translateY(0.41vh); }
+  19% {
+    overflow: hidden;
+    transform: translateY(-0.405vh); }
+  20% {
+    overflow: hidden;
+    transform: translateY(0.4vh); }
+  21% {
+    overflow: hidden;
+    transform: translateY(-0.395vh); }
+  22% {
+    overflow: hidden;
+    transform: translateY(0.39vh); }
+  23% {
+    overflow: hidden;
+    transform: translateY(-0.385vh); }
+  24% {
+    overflow: hidden;
+    transform: translateY(0.38vh); }
+  25% {
+    overflow: hidden;
+    transform: translateY(-0.375vh); }
+  26% {
+    overflow: hidden;
+    transform: translateY(0.37vh); }
+  27% {
+    overflow: hidden;
+    transform: translateY(-0.365vh); }
+  28% {
+    overflow: hidden;
+    transform: translateY(0.36vh); }
+  29% {
+    overflow: hidden;
+    transform: translateY(-0.355vh); }
+  30% {
+    overflow: hidden;
+    transform: translateY(0.35vh); }
+  31% {
+    overflow: hidden;
+    transform: translateY(-0.345vh); }
+  32% {
+    overflow: hidden;
+    transform: translateY(0.34vh); }
+  33% {
+    overflow: hidden;
+    transform: translateY(-0.335vh); }
+  34% {
+    overflow: hidden;
+    transform: translateY(0.33vh); }
+  35% {
+    overflow: hidden;
+    transform: translateY(-0.325vh); }
+  36% {
+    overflow: hidden;
+    transform: translateY(0.32vh); }
+  37% {
+    overflow: hidden;
+    transform: translateY(-0.315vh); }
+  38% {
+    overflow: hidden;
+    transform: translateY(0.31vh); }
+  39% {
+    overflow: hidden;
+    transform: translateY(-0.305vh); }
+  40% {
+    overflow: hidden;
+    transform: translateY(0.3vh); }
+  41% {
+    overflow: hidden;
+    transform: translateY(-0.295vh); }
+  42% {
+    overflow: hidden;
+    transform: translateY(0.29vh); }
+  43% {
+    overflow: hidden;
+    transform: translateY(-0.285vh); }
+  44% {
+    overflow: hidden;
+    transform: translateY(0.28vh); }
+  45% {
+    overflow: hidden;
+    transform: translateY(-0.275vh); }
+  46% {
+    overflow: hidden;
+    transform: translateY(0.27vh); }
+  47% {
+    overflow: hidden;
+    transform: translateY(-0.265vh); }
+  48% {
+    overflow: hidden;
+    transform: translateY(0.26vh); }
+  49% {
+    overflow: hidden;
+    transform: translateY(-0.255vh); }
+  50% {
+    overflow: hidden;
+    transform: translateY(0.25vh); }
+  51% {
+    overflow: hidden;
+    transform: translateY(-0.245vh); }
+  52% {
+    overflow: hidden;
+    transform: translateY(0.24vh); }
+  53% {
+    overflow: hidden;
+    transform: translateY(-0.235vh); }
+  54% {
+    overflow: hidden;
+    transform: translateY(0.23vh); }
+  55% {
+    overflow: hidden;
+    transform: translateY(-0.225vh); }
+  56% {
+    overflow: hidden;
+    transform: translateY(0.22vh); }
+  57% {
+    overflow: hidden;
+    transform: translateY(-0.215vh); }
+  58% {
+    overflow: hidden;
+    transform: translateY(0.21vh); }
+  59% {
+    overflow: hidden;
+    transform: translateY(-0.205vh); }
+  60% {
+    overflow: hidden;
+    transform: translateY(0.2vh); }
+  61% {
+    overflow: hidden;
+    transform: translateY(-0.195vh); }
+  62% {
+    overflow: hidden;
+    transform: translateY(0.19vh); }
+  63% {
+    overflow: hidden;
+    transform: translateY(-0.185vh); }
+  64% {
+    overflow: hidden;
+    transform: translateY(0.18vh); }
+  65% {
+    overflow: hidden;
+    transform: translateY(-0.175vh); }
+  66% {
+    overflow: hidden;
+    transform: translateY(0.17vh); }
+  67% {
+    overflow: hidden;
+    transform: translateY(-0.165vh); }
+  68% {
+    overflow: hidden;
+    transform: translateY(0.16vh); }
+  69% {
+    overflow: hidden;
+    transform: translateY(-0.155vh); }
+  70% {
+    overflow: hidden;
+    transform: translateY(0.15vh); }
+  71% {
+    overflow: hidden;
+    transform: translateY(-0.145vh); }
+  72% {
+    overflow: hidden;
+    transform: translateY(0.14vh); }
+  73% {
+    overflow: hidden;
+    transform: translateY(-0.135vh); }
+  74% {
+    overflow: hidden;
+    transform: translateY(0.13vh); }
+  75% {
+    overflow: hidden;
+    transform: translateY(-0.125vh); }
+  76% {
+    overflow: hidden;
+    transform: translateY(0.12vh); }
+  77% {
+    overflow: hidden;
+    transform: translateY(-0.115vh); }
+  78% {
+    overflow: hidden;
+    transform: translateY(0.11vh); }
+  79% {
+    overflow: hidden;
+    transform: translateY(-0.105vh); }
+  80% {
+    overflow: hidden;
+    transform: translateY(0.1vh); }
+  81% {
+    overflow: hidden;
+    transform: translateY(-0.095vh); }
+  82% {
+    overflow: hidden;
+    transform: translateY(0.09vh); }
+  83% {
+    overflow: hidden;
+    transform: translateY(-0.085vh); }
+  84% {
+    overflow: hidden;
+    transform: translateY(0.08vh); }
+  85% {
+    overflow: hidden;
+    transform: translateY(-0.075vh); }
+  86% {
+    overflow: hidden;
+    transform: translateY(0.07vh); }
+  87% {
+    overflow: hidden;
+    transform: translateY(-0.065vh); }
+  88% {
+    overflow: hidden;
+    transform: translateY(0.06vh); }
+  89% {
+    overflow: hidden;
+    transform: translateY(-0.055vh); }
+  90% {
+    overflow: hidden;
+    transform: translateY(0.05vh); }
+  91% {
+    overflow: hidden;
+    transform: translateY(-0.045vh); }
+  92% {
+    overflow: hidden;
+    transform: translateY(0.04vh); }
+  93% {
+    overflow: hidden;
+    transform: translateY(-0.035vh); }
+  94% {
+    overflow: hidden;
+    transform: translateY(0.03vh); }
+  95% {
+    overflow: hidden;
+    transform: translateY(-0.025vh); }
+  96% {
+    overflow: hidden;
+    transform: translateY(0.02vh); }
+  97% {
+    overflow: hidden;
+    transform: translateY(-0.015vh); }
+  98% {
+    overflow: hidden;
+    transform: translateY(0.01vh); }
+  99% {
+    overflow: hidden;
+    transform: translateY(-0.005vh); }
+  100% {
+    overflow: hidden;
+    transform: translateY(0vh); } }
 
 /**************************************************************** @media  *********************************************************************/
 @media only screen and (orientation: portrait) {
