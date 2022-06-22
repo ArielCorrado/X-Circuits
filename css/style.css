@@ -313,307 +313,408 @@ form {
 @keyframes vibracion {
   0% {
     overflow: hidden;
-    transform: translateY(0.5vh); }
+    transform: translateY(0.5vh);
+    background-position: 0 0.5vh; }
   1% {
     overflow: hidden;
-    transform: translateY(-0.495vh); }
+    transform: translateY(-0.495vh);
+    background-position: 0 -0.495vh; }
   2% {
     overflow: hidden;
-    transform: translateY(0.49vh); }
+    transform: translateY(0.49vh);
+    background-position: 0 0.49vh; }
   3% {
     overflow: hidden;
-    transform: translateY(-0.485vh); }
+    transform: translateY(-0.485vh);
+    background-position: 0 -0.485vh; }
   4% {
     overflow: hidden;
-    transform: translateY(0.48vh); }
+    transform: translateY(0.48vh);
+    background-position: 0 0.48vh; }
   5% {
     overflow: hidden;
-    transform: translateY(-0.475vh); }
+    transform: translateY(-0.475vh);
+    background-position: 0 -0.475vh; }
   6% {
     overflow: hidden;
-    transform: translateY(0.47vh); }
+    transform: translateY(0.47vh);
+    background-position: 0 0.47vh; }
   7% {
     overflow: hidden;
-    transform: translateY(-0.465vh); }
+    transform: translateY(-0.465vh);
+    background-position: 0 -0.465vh; }
   8% {
     overflow: hidden;
-    transform: translateY(0.46vh); }
+    transform: translateY(0.46vh);
+    background-position: 0 0.46vh; }
   9% {
     overflow: hidden;
-    transform: translateY(-0.455vh); }
+    transform: translateY(-0.455vh);
+    background-position: 0 -0.455vh; }
   10% {
     overflow: hidden;
-    transform: translateY(0.45vh); }
+    transform: translateY(0.45vh);
+    background-position: 0 0.45vh; }
   11% {
     overflow: hidden;
-    transform: translateY(-0.445vh); }
+    transform: translateY(-0.445vh);
+    background-position: 0 -0.445vh; }
   12% {
     overflow: hidden;
-    transform: translateY(0.44vh); }
+    transform: translateY(0.44vh);
+    background-position: 0 0.44vh; }
   13% {
     overflow: hidden;
-    transform: translateY(-0.435vh); }
+    transform: translateY(-0.435vh);
+    background-position: 0 -0.435vh; }
   14% {
     overflow: hidden;
-    transform: translateY(0.43vh); }
+    transform: translateY(0.43vh);
+    background-position: 0 0.43vh; }
   15% {
     overflow: hidden;
-    transform: translateY(-0.425vh); }
+    transform: translateY(-0.425vh);
+    background-position: 0 -0.425vh; }
   16% {
     overflow: hidden;
-    transform: translateY(0.42vh); }
+    transform: translateY(0.42vh);
+    background-position: 0 0.42vh; }
   17% {
     overflow: hidden;
-    transform: translateY(-0.415vh); }
+    transform: translateY(-0.415vh);
+    background-position: 0 -0.415vh; }
   18% {
     overflow: hidden;
-    transform: translateY(0.41vh); }
+    transform: translateY(0.41vh);
+    background-position: 0 0.41vh; }
   19% {
     overflow: hidden;
-    transform: translateY(-0.405vh); }
+    transform: translateY(-0.405vh);
+    background-position: 0 -0.405vh; }
   20% {
     overflow: hidden;
-    transform: translateY(0.4vh); }
+    transform: translateY(0.4vh);
+    background-position: 0 0.4vh; }
   21% {
     overflow: hidden;
-    transform: translateY(-0.395vh); }
+    transform: translateY(-0.395vh);
+    background-position: 0 -0.395vh; }
   22% {
     overflow: hidden;
-    transform: translateY(0.39vh); }
+    transform: translateY(0.39vh);
+    background-position: 0 0.39vh; }
   23% {
     overflow: hidden;
-    transform: translateY(-0.385vh); }
+    transform: translateY(-0.385vh);
+    background-position: 0 -0.385vh; }
   24% {
     overflow: hidden;
-    transform: translateY(0.38vh); }
+    transform: translateY(0.38vh);
+    background-position: 0 0.38vh; }
   25% {
     overflow: hidden;
-    transform: translateY(-0.375vh); }
+    transform: translateY(-0.375vh);
+    background-position: 0 -0.375vh; }
   26% {
     overflow: hidden;
-    transform: translateY(0.37vh); }
+    transform: translateY(0.37vh);
+    background-position: 0 0.37vh; }
   27% {
     overflow: hidden;
-    transform: translateY(-0.365vh); }
+    transform: translateY(-0.365vh);
+    background-position: 0 -0.365vh; }
   28% {
     overflow: hidden;
-    transform: translateY(0.36vh); }
+    transform: translateY(0.36vh);
+    background-position: 0 0.36vh; }
   29% {
     overflow: hidden;
-    transform: translateY(-0.355vh); }
+    transform: translateY(-0.355vh);
+    background-position: 0 -0.355vh; }
   30% {
     overflow: hidden;
-    transform: translateY(0.35vh); }
+    transform: translateY(0.35vh);
+    background-position: 0 0.35vh; }
   31% {
     overflow: hidden;
-    transform: translateY(-0.345vh); }
+    transform: translateY(-0.345vh);
+    background-position: 0 -0.345vh; }
   32% {
     overflow: hidden;
-    transform: translateY(0.34vh); }
+    transform: translateY(0.34vh);
+    background-position: 0 0.34vh; }
   33% {
     overflow: hidden;
-    transform: translateY(-0.335vh); }
+    transform: translateY(-0.335vh);
+    background-position: 0 -0.335vh; }
   34% {
     overflow: hidden;
-    transform: translateY(0.33vh); }
+    transform: translateY(0.33vh);
+    background-position: 0 0.33vh; }
   35% {
     overflow: hidden;
-    transform: translateY(-0.325vh); }
+    transform: translateY(-0.325vh);
+    background-position: 0 -0.325vh; }
   36% {
     overflow: hidden;
-    transform: translateY(0.32vh); }
+    transform: translateY(0.32vh);
+    background-position: 0 0.32vh; }
   37% {
     overflow: hidden;
-    transform: translateY(-0.315vh); }
+    transform: translateY(-0.315vh);
+    background-position: 0 -0.315vh; }
   38% {
     overflow: hidden;
-    transform: translateY(0.31vh); }
+    transform: translateY(0.31vh);
+    background-position: 0 0.31vh; }
   39% {
     overflow: hidden;
-    transform: translateY(-0.305vh); }
+    transform: translateY(-0.305vh);
+    background-position: 0 -0.305vh; }
   40% {
     overflow: hidden;
-    transform: translateY(0.3vh); }
+    transform: translateY(0.3vh);
+    background-position: 0 0.3vh; }
   41% {
     overflow: hidden;
-    transform: translateY(-0.295vh); }
+    transform: translateY(-0.295vh);
+    background-position: 0 -0.295vh; }
   42% {
     overflow: hidden;
-    transform: translateY(0.29vh); }
+    transform: translateY(0.29vh);
+    background-position: 0 0.29vh; }
   43% {
     overflow: hidden;
-    transform: translateY(-0.285vh); }
+    transform: translateY(-0.285vh);
+    background-position: 0 -0.285vh; }
   44% {
     overflow: hidden;
-    transform: translateY(0.28vh); }
+    transform: translateY(0.28vh);
+    background-position: 0 0.28vh; }
   45% {
     overflow: hidden;
-    transform: translateY(-0.275vh); }
+    transform: translateY(-0.275vh);
+    background-position: 0 -0.275vh; }
   46% {
     overflow: hidden;
-    transform: translateY(0.27vh); }
+    transform: translateY(0.27vh);
+    background-position: 0 0.27vh; }
   47% {
     overflow: hidden;
-    transform: translateY(-0.265vh); }
+    transform: translateY(-0.265vh);
+    background-position: 0 -0.265vh; }
   48% {
     overflow: hidden;
-    transform: translateY(0.26vh); }
+    transform: translateY(0.26vh);
+    background-position: 0 0.26vh; }
   49% {
     overflow: hidden;
-    transform: translateY(-0.255vh); }
+    transform: translateY(-0.255vh);
+    background-position: 0 -0.255vh; }
   50% {
     overflow: hidden;
-    transform: translateY(0.25vh); }
+    transform: translateY(0.25vh);
+    background-position: 0 0.25vh; }
   51% {
     overflow: hidden;
-    transform: translateY(-0.245vh); }
+    transform: translateY(-0.245vh);
+    background-position: 0 -0.245vh; }
   52% {
     overflow: hidden;
-    transform: translateY(0.24vh); }
+    transform: translateY(0.24vh);
+    background-position: 0 0.24vh; }
   53% {
     overflow: hidden;
-    transform: translateY(-0.235vh); }
+    transform: translateY(-0.235vh);
+    background-position: 0 -0.235vh; }
   54% {
     overflow: hidden;
-    transform: translateY(0.23vh); }
+    transform: translateY(0.23vh);
+    background-position: 0 0.23vh; }
   55% {
     overflow: hidden;
-    transform: translateY(-0.225vh); }
+    transform: translateY(-0.225vh);
+    background-position: 0 -0.225vh; }
   56% {
     overflow: hidden;
-    transform: translateY(0.22vh); }
+    transform: translateY(0.22vh);
+    background-position: 0 0.22vh; }
   57% {
     overflow: hidden;
-    transform: translateY(-0.215vh); }
+    transform: translateY(-0.215vh);
+    background-position: 0 -0.215vh; }
   58% {
     overflow: hidden;
-    transform: translateY(0.21vh); }
+    transform: translateY(0.21vh);
+    background-position: 0 0.21vh; }
   59% {
     overflow: hidden;
-    transform: translateY(-0.205vh); }
+    transform: translateY(-0.205vh);
+    background-position: 0 -0.205vh; }
   60% {
     overflow: hidden;
-    transform: translateY(0.2vh); }
+    transform: translateY(0.2vh);
+    background-position: 0 0.2vh; }
   61% {
     overflow: hidden;
-    transform: translateY(-0.195vh); }
+    transform: translateY(-0.195vh);
+    background-position: 0 -0.195vh; }
   62% {
     overflow: hidden;
-    transform: translateY(0.19vh); }
+    transform: translateY(0.19vh);
+    background-position: 0 0.19vh; }
   63% {
     overflow: hidden;
-    transform: translateY(-0.185vh); }
+    transform: translateY(-0.185vh);
+    background-position: 0 -0.185vh; }
   64% {
     overflow: hidden;
-    transform: translateY(0.18vh); }
+    transform: translateY(0.18vh);
+    background-position: 0 0.18vh; }
   65% {
     overflow: hidden;
-    transform: translateY(-0.175vh); }
+    transform: translateY(-0.175vh);
+    background-position: 0 -0.175vh; }
   66% {
     overflow: hidden;
-    transform: translateY(0.17vh); }
+    transform: translateY(0.17vh);
+    background-position: 0 0.17vh; }
   67% {
     overflow: hidden;
-    transform: translateY(-0.165vh); }
+    transform: translateY(-0.165vh);
+    background-position: 0 -0.165vh; }
   68% {
     overflow: hidden;
-    transform: translateY(0.16vh); }
+    transform: translateY(0.16vh);
+    background-position: 0 0.16vh; }
   69% {
     overflow: hidden;
-    transform: translateY(-0.155vh); }
+    transform: translateY(-0.155vh);
+    background-position: 0 -0.155vh; }
   70% {
     overflow: hidden;
-    transform: translateY(0.15vh); }
+    transform: translateY(0.15vh);
+    background-position: 0 0.15vh; }
   71% {
     overflow: hidden;
-    transform: translateY(-0.145vh); }
+    transform: translateY(-0.145vh);
+    background-position: 0 -0.145vh; }
   72% {
     overflow: hidden;
-    transform: translateY(0.14vh); }
+    transform: translateY(0.14vh);
+    background-position: 0 0.14vh; }
   73% {
     overflow: hidden;
-    transform: translateY(-0.135vh); }
+    transform: translateY(-0.135vh);
+    background-position: 0 -0.135vh; }
   74% {
     overflow: hidden;
-    transform: translateY(0.13vh); }
+    transform: translateY(0.13vh);
+    background-position: 0 0.13vh; }
   75% {
     overflow: hidden;
-    transform: translateY(-0.125vh); }
+    transform: translateY(-0.125vh);
+    background-position: 0 -0.125vh; }
   76% {
     overflow: hidden;
-    transform: translateY(0.12vh); }
+    transform: translateY(0.12vh);
+    background-position: 0 0.12vh; }
   77% {
     overflow: hidden;
-    transform: translateY(-0.115vh); }
+    transform: translateY(-0.115vh);
+    background-position: 0 -0.115vh; }
   78% {
     overflow: hidden;
-    transform: translateY(0.11vh); }
+    transform: translateY(0.11vh);
+    background-position: 0 0.11vh; }
   79% {
     overflow: hidden;
-    transform: translateY(-0.105vh); }
+    transform: translateY(-0.105vh);
+    background-position: 0 -0.105vh; }
   80% {
     overflow: hidden;
-    transform: translateY(0.1vh); }
+    transform: translateY(0.1vh);
+    background-position: 0 0.1vh; }
   81% {
     overflow: hidden;
-    transform: translateY(-0.095vh); }
+    transform: translateY(-0.095vh);
+    background-position: 0 -0.095vh; }
   82% {
     overflow: hidden;
-    transform: translateY(0.09vh); }
+    transform: translateY(0.09vh);
+    background-position: 0 0.09vh; }
   83% {
     overflow: hidden;
-    transform: translateY(-0.085vh); }
+    transform: translateY(-0.085vh);
+    background-position: 0 -0.085vh; }
   84% {
     overflow: hidden;
-    transform: translateY(0.08vh); }
+    transform: translateY(0.08vh);
+    background-position: 0 0.08vh; }
   85% {
     overflow: hidden;
-    transform: translateY(-0.075vh); }
+    transform: translateY(-0.075vh);
+    background-position: 0 -0.075vh; }
   86% {
     overflow: hidden;
-    transform: translateY(0.07vh); }
+    transform: translateY(0.07vh);
+    background-position: 0 0.07vh; }
   87% {
     overflow: hidden;
-    transform: translateY(-0.065vh); }
+    transform: translateY(-0.065vh);
+    background-position: 0 -0.065vh; }
   88% {
     overflow: hidden;
-    transform: translateY(0.06vh); }
+    transform: translateY(0.06vh);
+    background-position: 0 0.06vh; }
   89% {
     overflow: hidden;
-    transform: translateY(-0.055vh); }
+    transform: translateY(-0.055vh);
+    background-position: 0 -0.055vh; }
   90% {
     overflow: hidden;
-    transform: translateY(0.05vh); }
+    transform: translateY(0.05vh);
+    background-position: 0 0.05vh; }
   91% {
     overflow: hidden;
-    transform: translateY(-0.045vh); }
+    transform: translateY(-0.045vh);
+    background-position: 0 -0.045vh; }
   92% {
     overflow: hidden;
-    transform: translateY(0.04vh); }
+    transform: translateY(0.04vh);
+    background-position: 0 0.04vh; }
   93% {
     overflow: hidden;
-    transform: translateY(-0.035vh); }
+    transform: translateY(-0.035vh);
+    background-position: 0 -0.035vh; }
   94% {
     overflow: hidden;
-    transform: translateY(0.03vh); }
+    transform: translateY(0.03vh);
+    background-position: 0 0.03vh; }
   95% {
     overflow: hidden;
-    transform: translateY(-0.025vh); }
+    transform: translateY(-0.025vh);
+    background-position: 0 -0.025vh; }
   96% {
     overflow: hidden;
-    transform: translateY(0.02vh); }
+    transform: translateY(0.02vh);
+    background-position: 0 0.02vh; }
   97% {
     overflow: hidden;
-    transform: translateY(-0.015vh); }
+    transform: translateY(-0.015vh);
+    background-position: 0 -0.015vh; }
   98% {
     overflow: hidden;
-    transform: translateY(0.01vh); }
+    transform: translateY(0.01vh);
+    background-position: 0 0.01vh; }
   99% {
     overflow: hidden;
-    transform: translateY(-0.005vh); }
+    transform: translateY(-0.005vh);
+    background-position: 0 -0.005vh; }
   100% {
     overflow: hidden;
-    transform: translateY(0vh); } }
+    transform: translateY(0vh);
+    background-position: 0 0vh; } }
 
 /**************************************************************** @media  *********************************************************************/
 @media only screen and (orientation: portrait) {
